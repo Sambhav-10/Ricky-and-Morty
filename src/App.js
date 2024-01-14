@@ -32,13 +32,14 @@ function App() {
       </h1>
       <div className="text-center my-4">
         <Search setSeacrch={setSeacrch} />
+        
       </div>
 
       <div className="container">
         <div className="row">
-          <div className="col-3">
+          
             <Filter />
-          </div>
+         
           <div className="col-8">
             <div className="row">
               <Cards results={results} classNam="col-4" />

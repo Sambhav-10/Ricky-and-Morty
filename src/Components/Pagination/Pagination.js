@@ -16,6 +16,7 @@ const Pagination = ({ info, pageNumber, setPageNumber }) => {
       // previousClassName="btn btn-primary"
       activeClassName="active"
       />
+      
   );
 };
 
